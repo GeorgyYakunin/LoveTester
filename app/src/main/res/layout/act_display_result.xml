@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alpersolmaz.lovetester.ActivityDisplayResults"
+    android:background="@mipmap/background">
+
+    <LinearLayout
+        android:id="@+id/container_ly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/result_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/result_message"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            />
+
+        <RelativeLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="42dp">
+            <ImageView android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@mipmap/heart"/>
+
+                <TextView
+                    android:id="@+id/percantage_sign"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:paddingRight="36dp"
+                    android:text="@string/percent_char"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/love_point"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="24dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="27sp"
+                    android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/share_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/share"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="24dp"
+                android:text="@string/share"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/banner_bottom_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="42dp">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alpersolmaz.lovetester.ActivityTesting"
+    android:background="@mipmap/background">
+
+        <LinearLayout
+            android:id="@+id/content_ly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/message_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="36dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:text="@string/message_on_the_calculator_page"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/you_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/you"
+                android:textSize="31sp"
+                android:textColor="@color/dirty_white"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/you_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@drawable/edittext_style"
+                android:textColor="@color/grey"
+                android:paddingLeft="36dp"
+                android:paddingRight="24dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:inputType="textPersonName"
+                android:layout_marginTop="24dp"
+                />
+
+
+            <TextView
+                android:id="@+id/yourlove_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_love"
+                android:textSize="31sp"
+                android:textColor="@color/dirty_white"
+                android:textStyle="bold"
+                android:layout_marginTop="32dp"
+                />
+
+            <EditText
+                android:id="@+id/yourlove_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/edittext_style"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="6dp"
+                android:paddingLeft="36dp"
+                android:paddingRight="24dp"
+                android:paddingTop="6dp"
+                android:textColor="@color/grey" />
+
+            <ImageView
+                android:id="@+id/button"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@mipmap/button"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/banner_bottom_ly"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_horizontal">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Love Tester</string>
+    <string name="percent_char" translatable="false">%</string>
+
+
+    <string name="result_message">Процент любви между %1$s и %2$s</string>
+    <string name="message_on_the_calculator_page">Введите Ваше имя и имя Вашего возлюбленного и запустите тест!</string>
+    <string name="you">Вы</string>
+    <string name="your_love">Вашщ возлюбленный</string>
+    <string name="share">Поделиться</string>
+    <string name="share_message">Процент совместимости между мной и %1$s равен %2$s</string>
+    <string name="empty_form_message">Пожалуйста, заполните все поля</string>
+</resources>

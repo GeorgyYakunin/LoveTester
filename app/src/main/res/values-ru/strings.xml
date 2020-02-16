@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="result_message">The percentage of love between %1$s and %2$s</string>
+    <string name="message_on_the_calculator_page">Enter your name and your love name then test it !</string>
+    <string name="you">You</string>
+    <string name="your_love">Your Love</string>
+    <string name="share">Share</string>
+    <string name="share_message">The percentage of love between me and %1$s is %2$s</string>
+    <string name="empty_form_message">Please fill all fields</string>
+</resources>
